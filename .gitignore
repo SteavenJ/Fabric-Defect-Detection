@@ -1,0 +1,23 @@
+# Abaikan folder virtual environment
+venv/
+env/
+.env
+
+# Abaikan file cache Python (sampah kompilasi)
+__pycache__/
+*.pyc
+
+# Abaikan folder dataset IDE (VsCode/Pycharm)
+.vscode/
+.idea/
+
+# PENTING: Abaikan file gambar dataset yang besar
+# GitHub membatasi file maks 100MB. File .tif biasanya besar.
+# Dataset sebaiknya tidak di-upload ke repo kode, tapi disimpan di Google Drive/Local.
+*.tif
+*.tiff
+dataset/
+images/
+
+# Abaikan file sistem Mac (jika pakai Mac)
+.DS_Store
